@@ -99,3 +99,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+/image_dowloader/geckodriver.log
+/image_dowloader/dataset/
+/apikey.txt
+.idea/
