@@ -12,8 +12,8 @@ download_path = "dataset/"
 
 
 def main():
-    searchtexts = ['Cockroach', '\"German cockroach\"']
-    num_requested = 2000
+    searchtexts = ['insects -cockroach','cockroach','german cockroach','bugs','american cockroach','Periplaneta','Blattidae','beatles insects']
+    num_requested = 10000
     number_of_scrolls = int(num_requested / 400 + 1)
     downloaded_img_count = 0
     # number_of_scrolls * 400 images will be opened in the browser
